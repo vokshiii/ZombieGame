@@ -1,0 +1,29 @@
+{
+  "name": "snowpack-pixijs",
+  "version": "1.0.0",
+  "description": "Apocalypse Dash: Undead Uprising",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev --polyfill-node",
+    "build": "snowpack build --polyfill-node",
+    "init": "snowpack init"
+  },
+  "keywords": [
+    "snowpack",
+    "pixi.js",
+    "victor",
+    "matter.js"
+  ],
+  "author": "Jon Vokshi, Flamur Zenelaj",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.2.2"
+  },
+  "dependencies": {
+    "matter-js": "^0.15.0",
+    "pixi-particles": "^4.3.1",
+    "pixi.js": "^5.3.12",
+    "punycode": "^2.3.0",
+    "victor": "^1.1.0"
+  }
+}
